@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--versão, se nao especificar, sua pagina fica na ultima versão-->
 <html>
 <!--representa a marcação em html-->
@@ -9,25 +9,14 @@
     <meta charset="utf-8">
     <!--configurar a forma de leitura-->
     <title>Blog de Felipe</title>
-
-    <!--style = estilização interna-->
-    <style type="text/css">
-
-        .styleprojetos{
-            background-color:#ffffff;
-            color:grey;
-
-        }
-
-
-        
-
-    </style>
+    <link rel="stylesheet" href="estilos/blog.css">
+    <!--style = estilização interna e link hel [fas chamada css]-->
+    
 </head>
 
 <body>
 
-    <head>
+    <header class="claras">
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -39,21 +28,21 @@
             </ul>
         </nav>
 
-    </head>
+    </header>
 
-    <section id="identificacao">
+    <section class="identificacao">
         <h1>Felipe Kennedy Alencar Mesquita</h1>
         <h2>Trabalho LPW - ADS</h2>
     </section>
 
     </section>
 
-    <section id="projetos" class="styleprojetos">
-        <img aut="Imagem de tecnologia" src="./imagens/tecnologia.jpg">
+    <section id="projetos" class="claras">
+        <img aut="Imagem de tecnologia" src="imagens/tecnologia.jpg">
         <h3>Projetos</h3>
         <p>Códigos e Textos</p>
 
-        <ul>
+        <ul class="styleprojetos">
             <li>
                 <a href="https://github.com/felipekennedy/AulasProgramacaoWeb">Projeto WEB</a>
                 <p>Projeto da disciplina Progamação Web</p>
@@ -79,13 +68,14 @@
 
     </section>
 
-    <section id="sobre">
-        <img alt="foto de Felipe Kennedy Alencar Mesquita" scr="./imagens/tecnologia.jpg">
+    <section id="sobre" class="escuras">
+        <img alt="foto de Felipe Kennedy Alencar Mesquita" src="imagens/tecnologia.jpg">
         <p>Felipe Kennedy Alencar Mesquita.</p>
         <p>Ele é uma pessoa legal, gosta de inglês.</p>
         <p>Atua como estudante da FVS e curte programação.</p>
+    </section>
 
-        <section id="contato">
+        <section id="contato" class="claras">
             <h3>Contato</h3>
 
             <ul>
@@ -101,7 +91,7 @@
         </section>
 
 
-        <footer>
+        <footer class="escuras">
             <p>CopyRight Caio Teixeira Chagas 2019</p>
         </footer>
 
@@ -153,5 +143,5 @@
 <!--LISTA NÃO ORDENADA-->
 <!--<ul type=""> tipo algarismo, letras...-->
 <!--<li> adicionar linha-->
-<!--id   é identificador de uma sessao-->
-<!--classe   para varias sessôes>
+<!--id   é identificador de uma sessao usa #-->
+<!--classe   para varias sessôes usa .>
