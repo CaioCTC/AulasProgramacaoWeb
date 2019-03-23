@@ -1,0 +1,35 @@
+table{
+    width: 600px;/*largura*/
+    border-collapse: collapse;/*retitar bordas*/
+}
+th, td{
+    border: none;
+}
+th{
+    background-color: #000;
+    color:#fff;
+}
+tr:nth-of-type(even){/*nth-of-type(even) é um seletor define cores das linhas ou colunas PAR*/
+background-color: #F3F3F3;
+}
+tr:nth-of-type(odd){
+    background-color: #ddd;/*nth-of-type(even) é um seletor define cores das linhas ou colunas IMPAR*/
+}
+td:nth-child(n+2){/*nth-child (n+2) é um seletor define alinhamento de todas as linhas começando da 2 coluna*/
+text-align: right;
+}
+tr:last-child{/*seletor da ultima linha*/
+    font-weight: bolder;/*aplicar negrito na ultima linha*/
+}
+td:last-child{
+    font-weight: bolder;/*aplicar negrito na ultima linha*/
+}
+tr:last-child td:last-child{
+    font-size:24px;/*aplicar tamanho na ultima linha*/
+}
+tr:nth-last-child(2){/*seletor quem seleciona a linha específica de baixo para cima*/
+    color:green;
+}
+tr:nth-last-child(-n+3) td{/*seletor que alinha os tres de baixo para cima por conta do "-"  */
+    text-align: right;
+}
