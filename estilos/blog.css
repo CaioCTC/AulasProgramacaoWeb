@@ -2,17 +2,27 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-.identificacao {
+.identificacao {                                    /*# acesso id 
+                                                        . é para classe */
     background-color:#579FF0;
     color:#FCFCFD;
 }
 
 .identificacao h1{
-    font-size: 2.5em;
+    font-size: 2.5em;/*em tamaho dinamico*/
 }
 
 .identificacao h2{
     font-size: 1.5em; 
+    font-weight: lighter;/*lighter: espessura da borda fina*/
+}
+
+section h3{
+    font-size: 1.7em;
+}
+
+header li a{
+    color:#99A0B0;
     font-weight: lighter;
 }
 
@@ -33,4 +43,8 @@ body {
 .styleprojetos li a {
     color:#ffffff;
     font-size: 1.3em;
+}
+
+#sobre img{
+    width: 200px;
 }
