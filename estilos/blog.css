@@ -2,14 +2,22 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .identificacao {                                    /*# acesso id 
                                                         . é para classe */
     background-color:#579FF0;
     color:#FCFCFD;
-}
+    padding: 7em 2em;
+}/*padding modificação no sentido horário*/
 
 .identificacao h1{
     font-size: 2.5em;/*em tamaho dinamico*/
+    margin-bottom: 0.7em; /*<PADDING - espaçamento dentro do bloco.
+    NARGIN - espaçamento da margem fora do bloco*/
 }
 
 .identificacao h2{
@@ -19,6 +27,16 @@ body {
 
 section h3{
     font-size: 1.7em;
+}
+
+#contato li{
+    display: inline-block;/*IN LINE: organizar em linhas li,     IN BLOCO: organizar em blocos(horizontal)*/
+    margin: 1em;
+}
+
+header li{
+    display: inline-block;  
+    margin-left: 3em;
 }
 
 header li a{
@@ -47,4 +65,9 @@ header li a{
 
 #sobre img{
     width: 200px;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
