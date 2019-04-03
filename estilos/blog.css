@@ -41,6 +41,11 @@ section h3{
     margin: 1em;
 }
 
+section img{
+    width: 100%;
+    max-width: 300;
+}
+
 header {
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
@@ -69,6 +74,15 @@ header li a{
     
 }
 
+.projetos-header {
+    float: left;               /*float flutua imagem e quebra regras do inline e inblock*/
+
+}
+
+.styleprojetos {
+    margin-left: 40%;
+}
+
 .styleprojetos li {
     background-color:#6F768B; 
     padding: 1em;
@@ -77,8 +91,10 @@ header li a{
 }
 
 .styleprojetos li p{
-     color: #fff;
-     margin-top: 0.5em;
+    color: #fff;
+    margin-top: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
 
 }
 
