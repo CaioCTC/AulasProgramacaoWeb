@@ -1,5 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: Helvetica, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+
 }
 
 .container{
@@ -10,6 +20,7 @@ body {
 section {
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: center;
 
 }
 
@@ -17,13 +28,13 @@ section {
                                                         . é para classe */
     background-color:#579FF0;
     color:#FCFCFD;
-    padding: 7em 2em;
+    padding: 10em 2em 7em;
 }/*padding modificação no sentido horário*/
 
 .identificacao h1{
     font-size: 2.5em;/*em tamaho dinamico*/
-    margin-bottom: 0.7em; /*<PADDING - espaçamento dentro do bloco.
-    NARGIN - espaçamento da margem fora do bloco*/
+    margin-bottom: 0.7em; /*<PADDING - espaçamento dentro do bloco. NARGIN - espaçamento da margem fora do bloco*/
+
 }
 
 .identificacao h2{
@@ -46,21 +57,33 @@ section img{
     max-width: 300;
 }
 
+
 header {
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
     padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+
+}
+
+header ul {
+    text-align: right;
 
 }
 
 header li{
     display: inline-block;  
     margin-left: 3em;
+
 }
 
 header li a{
     color:#99A0B0;
     font-weight: lighter;
+    text-transform: uppercase;
+
 }
 
 .escuras {
@@ -105,6 +128,9 @@ header li a{
 
 #sobre p.text {
     margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
 
 }
 
@@ -112,10 +138,20 @@ header li a{
     color:#579ff0;
     font-size: 1.5em;
     margin: 1em;
+    width: 50%;
+}
+
+#sobre {
+        position: relative;    /* float flutua a imagem e position: relative sobrepoe (nao cai na prova)*/
+
 }
 
 #sobre img{
     width: 200px;
+    position: absolute;
+    top: 0.4em;
+    right: 10%;
+
 }
 
 footer {
