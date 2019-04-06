@@ -24,8 +24,8 @@ section {
 
 }
 
-.identificacao {                                    /*# acesso id 
-                                                        . é para classe */
+.identificacao {                                    /*# acesso id - em um so local
+                                                        . é para classe - aplicado em varias partes */
     background-color:#579FF0;
     color:#FCFCFD;
     padding: 10em 2em 7em;
@@ -49,7 +49,7 @@ section h3{
 
 #contato li{
     display: inline-block;/*IN LINE: organizar em linhas li,     IN BLOCO: organizar em blocos(horizontal)*/
-    margin: 1em;
+    
 }
 
 section img{
@@ -57,6 +57,38 @@ section img{
     max-width: 300;
 }
 
+#contato li a{
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+
+}
+
+#contato .email{
+    background-image: url("../imagens/email.png");
+
+}
+
+#contato .fac{
+    background-image: url("../imagens/fac.png");
+
+}
+
+#contato .twitter{
+    background-image: url("../imagens/twitter.png");
+
+}
+
+#contato .github{
+    background-image: url("../imagens/github.png");
+
+}
+#contato .linkedin{
+    background-image: url("../imagens/linkedin.png");
+
+}
 
 header {
     border-bottom: 1px solid #ccc;
@@ -98,10 +130,14 @@ header li a{
 }
 
 .projetos-header {
-    float: left;               /*float flutua imagem e quebra regras do inline e inblock*/
-
+    float: left;    /*float flutua imagem e quebra regras do inline e inblock*/
+    width: 30%;
 }
 
+.projetos-header h3 {             
+    margin-top: 1em;
+
+}
 .styleprojetos {
     margin-left: 40%;
 }
