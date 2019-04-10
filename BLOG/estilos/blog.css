@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif; 
+    background-image: url("../imagens/pl.jpg");
+    background-attachment: fixed;
+    border: solid 0.4px gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+section img{
+    width: 100%;
+    max-width: 30em;;
+    border-radius: 25px;
+    border: double 10px gray;
+    margin: 2em;
+}
+
+header{
+    border: 5px double gray;
+    position: fixed;    
+    width: 100%;
+}
+
+header li a{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+.botao{
+    margin:0em;
+    padding:0em; 
+}
+
+.botao a {  
+    font: bold 15em;
+    color:rgb(255, 196, 0);
+    background:#0f0d0b96;	
+    width: 8em;  
+    height:2.9em;	
+    display: inline-block;	
+    padding: 1em;
+    border: 2px solid gray;
+}
+
+.botao a:hover { 
+    background: rgb(255, 196, 0) url('botao_hover.gif') no-repeat center;
+    color:#0f0d0b96; 
+    opacity: 0.8;
+}
+
+ header ul{
+     text-align: center;
+ }
+
+header li a{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+header li a:hover{
+    color:orangered;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 5em;
+}
+
+#contato li {
+    display: inline-block;
+}
+
+#contato li a{
+    display: inline-block;
+    margin: 2em;
+    width: 3em;
+    height: 3em;
+    text-indent: -9999px; 
+}
+
+#contato li a:hover{
+    background:rgb(255, 196, 0) url url('botao_hover.gif') no-repeat center;
+    opacity: 0.2;
+}
+
+#contato .email{
+    background-image: url("../imagens/email.png");  
+}
+
+#contato .facebook{
+    background-image: url("../imagens/fac.png");
+}
+
+#contato .twitter{
+    background-image: url("../imagens/twitter.png");
+}
+
+#contato .github{
+    background-image: url("../imagens/github.png");
+}
+
+#contato .jg{
+    background-image: url("../imagens/jg.png");
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+section h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 0.5em;
+    font-weight: bold;
+    color:  rgb(255, 196, 0);
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
+    background-color: #0f0d0b96;
+    border-radius: 30px;
+    text-shadow: 1px 1px 3px #463e8ac2;
+    width: 100%; 
+}
+
+.identificacao{ 
+    background-color: #0f0d0bfb;
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+    padding: 10em 2em 7em;
+    border: double 5px gray;
+    text-shadow: 4px 4px 6px #0e0c3bc2;
+}
+
+.identificacao h1{
+    font-size: 3.5em;
+    margin-bottom: 0.7em; 
+}
+
+.identificacao h2{
+    font-size: 2.5em;
+    font-weight: lighter;
+    font-weight: bold;  
+}
+
+
+#sobre p.text {
+    margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+    text-shadow: 1px 1px 3px black;
+}
+
+#sobre{
+    position: unset;
+    border: solid 2px gray;
+    
+}
+
+#sobre img{
+    width: 18em;
+    height: 12em;
+    position: unset;
+    float: right;
+    border-radius: 1em;
+    border:solid 2px gray;
+    margin-top: 0%;
+    
+}
+
+#sobre p.bio {
+    width: 50%;
+    color: rgb(255, 196, 0);
+    font-size: 1.5em;
+    margin: 1em;
+    text-shadow: 1px 1px 3px black;
+}
+
+.escuras{
+    background-color: #0f0d0b96;;
+    color: #fcfcfd;
+
+}
+
+.claras{
+    background-color: rgba(47, 35, 35, 0.39);
+}
+
+#projetos-header{
+    float: left;
+    width: 50%;
+}
+
+#projetos-header h3{
+    margin-top: 2em;
+}
+
+.styleprojetos{
+    margin-left: 0%;
+}
+
+.styleprojetos li{
+    background-color:  #0f0d0b96;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+    border: solid 5px grey;
+    float: inline-start;
+}
+
+.styleprojetos li p{
+    color: #fff;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    text-align: center;    
+    line-height: 1.5;
+    text-shadow: 1px 1px 3px black;
+    
+}
+
+.styleprojetos li a{
+  color:rgb(255, 196, 0);
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+}
+
+.styleprojetos li a:hover{
+    color:  orangered;
+    font-size: 1.3em;
+    opacity: 0.5;
+  }
+
+  .styleprojetos li iframe{
+    padding: 0.5em;
+    margin-top: 1em;
+    border-radius: 25px;
+    border: solid 1px grey;
+    width: 60%;
+    height: 30em;
+
+}
+
+footer {
+    padding: 1em;
+    border: solid 2px gray;
+
+}
