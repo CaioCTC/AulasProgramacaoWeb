@@ -32,6 +32,7 @@ header li a{
     font-weight: bold;
     font-size: medium;
 }
+
 .botao{
     margin:0em;
     padding:0em; 
@@ -56,7 +57,7 @@ header li a{
 
  header ul{
      text-align: center;
- }
+}
 
 header li a{
     font-weight: bolder;
@@ -155,7 +156,6 @@ section h3{
     font-weight: bold;  
 }
 
-
 #sobre p.text {
     margin: 1em;
     width: 50%;
@@ -166,8 +166,7 @@ section h3{
 
 #sobre{
     position: unset;
-    border: solid 2px gray;
-    
+    border: solid 2px gray; 
 }
 
 #sobre img{
@@ -177,8 +176,7 @@ section h3{
     float: right;
     border-radius: 1em;
     border:solid 2px gray;
-    margin-top: 0%;
-    
+    margin-top: 0%;  
 }
 
 #sobre p.bio {
@@ -192,7 +190,6 @@ section h3{
 .escuras{
     background-color: #0f0d0b96;;
     color: #fcfcfd;
-
 }
 
 .claras{
